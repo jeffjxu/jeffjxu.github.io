@@ -1,37 +1,63 @@
 .slide {
-  width: 100vw;
-  height: 100vh;
+    width: 100vw;
+    height: 100vh;
 }
 .wrapper {
-  display: flex;
-  flex-direction: row;
-  width: 400vw;
-  transform: rotate(90deg) translateY(-100vh);
-  transform-origin: top left;
+    display: flex;
+    flex-direction: row;
+    width: 400vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
 }
 .outer-wrapper {
-  width: 100vh;
-  height: 100vw;
-  transform: rotate(-90deg) translateX(-100vh);
-  transform-origin: top left;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  position: absolute;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 ::-webkit-scrollbar {
-  display:none;
+    display:none;
 }
 .one {
-  background: #efdefe;
 }
 .two {
-  background: #a3f3d3;
+    background: #a3f3d3;
 }
 .three {
-  background: #0bbaa0;
+    background: #0bbaa0;
 }
 .four {
-  background: #00dfdf;
+    background: #00dfdf;
+}
+.row {
+    height: 100vh;
+}
+#headshot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+}
+#typing-animation-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 700px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -350px;
+}
+#typing-animation {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px; 
+    margin: 10px 40px; 
+    letter-spacing: 2px; 
 }
