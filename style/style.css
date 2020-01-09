@@ -24,6 +24,8 @@
     display:none;
 }
 .one {
+    background-image: url("../media/cartographer.png");
+    background-repeat: repeat;
 }
 .two {
     background: #a3f3d3;
@@ -57,6 +59,7 @@
 }
 #typing-animation {
     font-family: 'Source Code Pro', monospace;
+    color: white;
     font-size: 20px; 
     margin: 10px 40px; 
     letter-spacing: 2px; 
